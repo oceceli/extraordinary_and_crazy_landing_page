@@ -1,21 +1,12 @@
-# Extraordinary and Crazy Landing Page
 
-## Project setup
+# Ücretsiz bir şekilde statik olarak serve etmek isterseniz:
+
+Bu rehberi takip edin <br/> https://www.ugrasi.com/2022/03/06/tamamen-ucretsiz-portfolyo-sitesi-kurma/
+
+# Localde çalıştırmak isterseniz:
+
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
