@@ -10,4 +10,6 @@ npm run serve
 ```
 
 # Docker image
+```
 docker pull oceceli/portfolio-landing:latest
+```
