@@ -1,0 +1,20 @@
+FROM alpine:3.16 AS base
+
+#change workdir to app folder
+WORKDIR /app
+
+#copy to app folder
+COPY . .
+
+#install npm, it's dependencies and then build
+RUN apk add npm \
+    && npm install \
+    && npm run build
+
+
+
+FROM nginx:1.22.0
+
+WORKDIR /usr/share/nginx/html
+
+COPY --from=base /app/dist .
